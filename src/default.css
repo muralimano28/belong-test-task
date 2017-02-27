@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('assets/fonts/OpenSans/OpenSans-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    /* background: #f3f3f3; */
+    font-family: 'OpenSans-Regular', sans-serif;
+    color: #333333;
+    width: 80%;
+    max-width: 1440px;
+    margin: 2em auto;
+}
+button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #e3e3e3;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+button.green {
+    background: #76c853;
+    border-color: #70ba50;
+}
+button.red {
+    background: #f4f4f4;
+    border-color: #e1e1e1;
+    color: #911;
+}
+label {
+    padding: 0 0 0 0.5em;
+}
+input[type="text"] {
+    padding: 0.5em;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #e3e3e3;
+}
+.noul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.noul li {
+    margin: 0;
+    padding: 1em;
+    border-bottom: 1px solid #ebebeb;
+}
+.noul li:last-child {
+    border: none;
+}
+.hide {
+    display: none !important;
+}
+.error {
+    font-size: 0.85em;
+    color: #911;
+}
