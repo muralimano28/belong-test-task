@@ -1,0 +1,41 @@
+{
+    "name": "mad-street-den-task",
+    "version": "1.0.0",
+    "description": "This is a front-end task given to me by mad street den (MSD) during my interview for front-end developer position",
+    "main": "index.js",
+    "scripts": {
+        "start": "NODE_ENV=development ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js",
+        "build": "rm -rf ./dist && NODE_ENV=production ./node_modules/webpack/bin/webpack.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "React",
+        "Javascript",
+        "HTML",
+        "CSS"
+    ],
+    "author": "Muralimanohar.P",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^15.4.2",
+        "react-dom": "^15.4.2",
+        "redux": "^3.6.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.23.1",
+        "babel-loader": "^6.3.2",
+        "babel-plugin-transform-object-rest-spread": "^6.23.0",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-es2015": "^6.22.0",
+        "babel-preset-react": "^6.23.0",
+        "copy-webpack-plugin": "^4.0.1",
+        "css-loader": "^0.26.1",
+        "extract-text-webpack-plugin": "^2.0.0-beta",
+        "file-loader": "^0.10.0",
+        "html-webpack-plugin": "^2.28.0",
+        "path": "^0.12.7",
+        "style-loader": "^0.13.1",
+        "webpack": "^2.2.1",
+        "webpack-dev-server": "^2.4.1"
+    }
+}
